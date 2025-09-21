@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Un Girasol Para Ti</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="particles-container"></div>
+
+    <div class="card-container" onclick="animateCard(event)">
+      <div class="card" id="card">
+        <div class="page page-back">
+          <div class="page-content front-face image-page"></div>
+
+          <div class="page-content back-face">
+            <div class="kanji-text">Calidez</div>
+            <div class="romaji-text">Constante</div>
+
+            <p class="message-text">
+              Y así, como el girasol busca el sol,<br />
+              mi corazón siempre te buscará a ti,<br />
+              porque tú eres mi luz.
+            </p>
+            <div class="signature">Con todo cariño 💛</div>
+          </div>
+        </div>
+
+        <div class="page page-front">
+          <div class="page-content front-face">
+            <div class="cover-decoration">🌻</div>
+            <h1 class="cover-title">Para Mi Girasol</h1>
+            <p class="cover-subtitle">Una carta para quien ilumina mis días</p>
+            <p class="click-hint" id="hint-text">Toca para abrir 🌻</p>
+          </div>
+
+          <div class="page-content back-face">
+            <p class="message-text">
+              Dicen que los girasoles<br />
+              se buscan unos a otros<br />
+              cuando el sol se esconde...<br />
+              para darse calor.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
